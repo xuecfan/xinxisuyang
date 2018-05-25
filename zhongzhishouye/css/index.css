@@ -1,0 +1,316 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*header开始*/
+.header{
+	height: 173px;
+	background-color: #eeeeef;
+}
+.logo{
+	padding-top: 30px;
+	text-align: center;
+	height: 95px;
+}
+/*.logo img{
+	margin-top: 30px;
+}*/
+.nav{
+	width: 670px;
+	height: 45px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 23px;
+}
+.nav li{
+	font:14px '微软雅黑';
+	float: left;
+	height: 45px;
+	padding: 0 30px;
+	line-height: 45px;
+	background: url(../images/line.png) no-repeat right center;
+}
+.first{
+	display: block;
+	height: 42px;
+	border-bottom: 3px solid #1e50ae;
+}
+.nav li:last-child{
+	background: none;
+}
+/*header结束*/
+/*banner开始*/
+.banner{
+	width: 100%;
+	height: 405px;
+	background: url(../images/banner.png) no-repeat center center;
+}
+/*banner结束*/
+/*serve开始*/
+.serve{
+	width: 1200px;
+	height: 810px;
+	margin: 0 auto;
+}
+.fuwu{
+	padding-top: 62px;
+	height: 135px;
+	font: 34px '微软雅黑';
+	text-align: center;
+}
+.bigbox{
+	height: 613px;
+	width: 1200px;
+}
+.bigbox li{
+	margin-left: 40px;
+}
+.up{
+	height: 367px;
+	width: 1200px;
+}
+.up h3{
+	margin-left: 37px;
+}
+.down{
+	height: 246px;
+	width: 1200px;
+}
+.one{
+	margin-left: 69px;
+	width: 148px;
+	float: left;
+}
+.two{
+	margin-left: 160px;
+	width: 148px;
+	float: left;
+}
+.three{
+	margin-left: 161px;
+	width: 148px;
+	float: left;
+}
+.four{
+	margin-left: 160px;
+	width: 148px;
+	float: left;
+}
+.five{
+	margin-left: 69px;
+	width: 148px;
+	float: left;
+}
+.five h3{
+	margin-left: 10px;
+}
+.six{
+	margin-left: 160px;
+	width: 148px;
+	float: left;
+}
+.six h3{
+	margin-left: 26px;
+}
+.seven{
+	margin-left: 161px;
+	width: 148px;
+	float: left;
+}
+.seven h3{
+	margin-left: 19px;
+}
+.eight{
+	margin-left: 160px;
+	width: 148px;
+	float: left;
+}
+.eight h3{
+	margin-left: 37px;
+}
+/*serve结束*/
+/*solution开始*/
+.solution{
+	width: 100%;
+	height: 710px;
+	background: url(../images/solution/solution1.png) no-repeat center center;
+}
+.up1{
+	padding-top: 65px;
+	height: 150px;
+	font: 34px '微软雅黑';
+	color: #ffffff;
+	text-align: center;
+}
+.middle1{
+	height: 380px;
+}
+.jiantoul{
+	margin-left: 180px;
+	margin-top: 132px;
+	float: left;
+}
+.difang{
+	margin-left: 35px;
+	float: left;
+}
+.jiantour{
+	margin-left: 42px;
+	margin-top: 132px;
+	float: left;
+}
+.down1 button{
+	width: 234px;
+	height: 54px;
+	border-radius: 27px;
+	font: 20px '微软雅黑';
+	color: #ffffff;
+	background-color: none;
+	margin-left: 664px;
+	/*border-style: 1px solid #fff;*/
+}
+/*solution结束*/
+/*inform开始*/
+.inform{
+	height: 910px；
+}
+.up2{
+	padding-top: 59px;
+	height: 130px;
+	font: 34px '微软雅黑';
+	text-align: center;
+}
+.middle2{
+	height: 376px;
+}
+.goldpig{
+	margin-left: 241px;
+	float: left;
+	height: 275px;
+
+}
+.jiaoyi{
+	/*margin-right: 247px;*/
+	float: left;
+	width: 510px;
+	height: 275px;
+	/*margin-top: 31px;*/
+}
+.inf1{
+	font: 22px '微软雅黑';
+	margin-bottom: 20px;
+	margin-top: 31px;
+	
+}
+.inf2{
+	font: 18px '微软雅黑';
+	margin-bottom: 36px;
+}
+.inf3{
+	font: 14px '微软雅黑';
+	margin-bottom: 33px;
+}
+.jiaoyi button{
+	width: 140px;
+	height: 41px;
+	border-radius: 21px;
+	font: 16px '微软雅黑';
+	color: #1141a3;
+	margin-bottom: 132px;
+	/*border-style: 1px solid #1141a3;*/
+	/*background-color: none;*/
+	/*margin-left: 664px;*/
+}
+.down2{
+	height: 346px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.changju1{
+	float:left;
+	width: 540px;
+	height: 345px;
+	font: 14px '微软雅黑';
+	line-height: 28px;
+	margin-left: 85px;
+}
+.changju2{
+	font: 14px '微软雅黑';
+	float: left;
+	width: 540px;
+	height: 345px;
+	line-height: 28px;
+}
+/*inform结束*/
+/*little开始*/
+.little{
+	background-color: #f5f5f5;
+	height: 102px;
+}
+.zizhi{
+	width: 251px;
+	height: 47px;
+	float: left;
+	margin-left: 229px;
+	margin-top: 29px;
+}
+.zizhi1{
+	float: left;
+}
+.zizhi2{
+	float: left;
+}
+.zhifu{
+	width: 251px;
+	height: 47px;
+	float: left;
+	margin-left: 45px;
+	margin-top: 29px;
+}
+.zhifu1{
+	float: left;
+}
+.zhifu2{
+	float: left;
+}
+.baoxian{
+	width: 251px;
+	height: 47px;
+	float: left;
+	margin-left: 68px;
+	margin-top: 29px;
+}
+.baoxian1{
+	float: left;
+}
+.baoxian2{
+	float: left;
+}
+.shouhou{
+	width: 251px;
+	height: 47px;
+	float: left;
+	margin-left: 43px;
+	margin-top: 29px;
+}
+.shouhou1{
+	float: left;
+}
+.shouhou2{
+	float: left;
+}
+/*little结束*/
+/*didao开始*/
+.didao{
+	width: 100%;
+	height: 387px;
+	background: url(../images/didao.png) no-repeat center center;
+}
+/*didao结束*/
